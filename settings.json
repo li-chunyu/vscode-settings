@@ -1,0 +1,129 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "python.linting.enabledWithoutWorkspace": false,
+    "workbench.activityBar.visible": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    // Controls the font family.
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+    "editor.lineHeight": 24,
+    // Enables font ligatures
+    "editor.fontLigatures": true,
+    // Controls if file decorations should use badges.
+    "explorer.decorations.badges": false,
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+
+    "editor.tokenColorCustomizations": {
+        "[Material Theme VARIANT]": {
+            "sideBar.background": "#347890",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.comment",
+                        "comment.block",
+                        "comment.line",
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#FF0000"
+                    }
+                }
+            ]
+        },
+    },
+    "editor.fontFamily": "Source Code Pro",
+    // When enabled, commits will automatically be fetched from the default remote of the current Git repository.
+    "git.autofetch": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    //
+    // vim setting
+    //
+
+    "vim.easymotion": false,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": true
+    },
+    "vim.visualModeKeyBindingsNonRecursive": [
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "q"],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": ["<leader>", "B"],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": ["<leader>", "O"],
+            "commands": [
+                "workbench.action.files.openFile"
+            ]
+        },
+        {
+            "before": ["<leader>", "N"],
+            "commands":[
+                "workbench.action.files.newUntitledFile"
+            ]
+        },
+        {
+            "before":["<C-n>"],
+            "commands": [
+                ":nohl",
+            ]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+        {
+            "before": ["<leader>", "w"], 
+            "commands": [
+            "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    //
+    // vim setting end
+    //
+}
